@@ -92,7 +92,7 @@ const App = () => {
             <div className="flex flex-wrap gap-3 mb-8">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-[10px] font-bold uppercase tracking-[0.3em]">
                 <Calendar size={14} />
-                09 MAY 2026
+                08 MAY 2026
               </div>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-400 text-[10px] font-bold uppercase tracking-[0.3em] animate-pulse">
                 <AlertTriangle size={14} />
@@ -174,7 +174,7 @@ const App = () => {
                     <p className="text-cyan-500 font-mono text-sm tracking-[0.4em]">STAGES OF THE CHALLENGE</p>
                 </div>
                 <div className="px-4 py-2 border border-white/10 rounded-full text-[10px] font-mono text-slate-500 uppercase italic">
-                   9 May 2026 | 02:00 PM - 04:00 PM
+                   8 May 2026 | 02:00 PM - 04:00 PM
                 </div>
             </div>
 
@@ -284,7 +284,7 @@ const App = () => {
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-12">
                     <div className="space-y-4">
                         <h4 className="text-[10px] font-bold uppercase tracking-[0.4em] text-cyan-500">Voyage Date</h4>
-                        <p className="text-lg font-black text-white italic">09 May, 2026</p>
+                        <p className="text-lg font-black text-white italic">08 May, 2026</p>
                     </div>
                     <div className="space-y-4">
                         <h4 className="text-[10px] font-bold uppercase tracking-[0.4em] text-cyan-500">Mission Clock</h4>
