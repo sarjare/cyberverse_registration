@@ -244,6 +244,27 @@ const App = () => {
                 </div>
                 
                 <div className="p-2 md:p-6 bg-slate-950">
+                    <div className="mb-6 p-6 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden group">
+                        <div className="absolute inset-0 bg-cyan-500/5 translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
+                        <div className="flex items-start gap-4 relative z-10">
+                            <div className="p-3 bg-cyan-500/20 rounded-xl text-cyan-400 animate-pulse">
+                                <AlertTriangle size={24} />
+                            </div>
+                            <div>
+                                <h3 className="text-xl font-black text-white uppercase italic mb-1">Critical: Comm Channel</h3>
+                                <p className="text-slate-400 text-sm">After submitting the form, you <span className="text-cyan-400 font-bold">MUST</span> join the WhatsApp group to receive mission briefings.</p>
+                            </div>
+                        </div>
+                        <a 
+                            href="https://chat.whatsapp.com/GdwFu5PfmyZ4TYNOBy982Q" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="relative z-10 px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black rounded uppercase tracking-widest transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(34,211,238,0.2)] whitespace-nowrap flex items-center gap-2"
+                        >
+                            Join WhatsApp <ExternalLink size={18} />
+                        </a>
+                    </div>
+
                     <div className="rounded-2xl overflow-hidden min-h-[800px] flex flex-col items-center">
                         <iframe 
                             src="https://docs.google.com/forms/d/e/1FAIpQLSfCrsl1P_fM-gvaRaAU0lynS85yR6ZX67SR98Nzqonozc8Msg/viewform?embedded=true" 
